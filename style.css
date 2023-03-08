@@ -36,6 +36,17 @@ body {
   gap: 3.2rem;
 }
 
+.box:hover {
+  animation: hover 3s;
+}
+
+@keyframes hover {
+  0% {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+  }
+}
+
 #app {
   column-gap: 3.2rem; /* faz o gap entre colunas */
   row-gap: 5.9rem; /* faz o gap entre linha */
